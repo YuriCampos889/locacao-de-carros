@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
   padding: 2rem;
   text-align: center;
@@ -12,4 +13,25 @@ export const Container = styled.div`
   p {
     color: #666;
   }
-`;
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55%;
+    z-index: -1;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+    .bar{
+
+    background-color: #f51d1d;
+    color: #fff;
+    gap: 1rem;
+    }
+    `;
