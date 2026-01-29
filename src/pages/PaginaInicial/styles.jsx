@@ -36,15 +36,16 @@ export const Container = styled.div`
   }
 
   .item {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.80); 
     margin: 10px;
     padding: 10px;
     width: 280px;
+    border-radius: 16px;
+    flex: none;
     ;
   }
   .CarImage{
     width: 100%;
-    height: 100%;
     object-fit: cover;
   }
 
@@ -58,10 +59,15 @@ export const Container = styled.div`
     display: block;
     text-align: left;
     color: #000000;
-    padding: 5px;
     border-radius: 10px;
   }
   
+  .price {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #000000;
+  }
 
     .bar{
       position: absolute;

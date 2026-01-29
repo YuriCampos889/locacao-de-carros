@@ -1,0 +1,18 @@
+[
+    { "id": 1, "model": "Honda Civic", "price": 180, "image": "/cars/honda-civic.png" },
+    { "id": 2, "model": "Toyota Corolla", "price": 170, "image": "/cars/toyota-corolla.png" },
+    { "id": 3, "model": "Chevrolet Onix", "price": 120, "image": "/cars/chevrolet-onix.png" },
+    { "id": 4, "model": "Hyundai HB20", "price": 130, "image": "/cars/hyundai-hb20.png" },
+    { "id": 5, "model": "Volkswagen Golf", "price": 200, "image": "/cars/volkswagen-golf.png" },
+    { "id": 6, "model": "Jeep Compass", "price": 280, "image": "/cars/jeep-compass.png" },
+    { "id": 7, "model": "Fiat Argo", "price": 110, "image": "/cars/fiat-argo.png" },
+    { "id": 8, "model": "Nissan Kicks", "price": 210, "image": "/cars/nissan-kicks.png" },
+    { "id": 9, "model": "Ford Ka", "price": 100, "image": "/cars/ford-ka.png" },
+    { "id": 10, "model": "Renault Duster", "price": 230, "image": "/cars/renault-duster.png" },
+    { "id": 11, "model": "BMW X1", "price": 350, "image": "/cars/bmw-x1.png" },
+    { "id": 12, "model": "Audi A3", "price": 320, "image": "/cars/audi-a3.png" },
+    { "id": 13, "model": "Mercedes-Benz A200", "price": 380, "image": "/cars/mercedes-a200.png" },
+    { "id": 14, "model": "Peugeot 208", "price": 140, "image": "/cars/peugeot-208.png" },
+    { "id": 15, "model": "Toyota Hilux", "price": 420, "image": "/cars/toyota-hilux.png" }
+  ]
+  
