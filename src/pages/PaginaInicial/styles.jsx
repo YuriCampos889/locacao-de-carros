@@ -4,6 +4,9 @@ import styled from 'styled-components';
 export const Container = styled.div`
   padding: 2rem;
   text-align: center;
+  overflow-x: hidden;
+  max-width: 96vw;
+
   
   h1 {
     color: #000000;
@@ -33,6 +36,13 @@ export const Container = styled.div`
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
+    max-width: 100%;
+    margin: 0 -10px;
+    padding: 0 10px;
+
+
+
+
   }
 
   .item {
