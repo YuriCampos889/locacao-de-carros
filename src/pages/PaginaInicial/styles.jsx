@@ -32,18 +32,51 @@ export const Container = styled.div`
     }
   }
 
-  .carousel {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    max-width: 100%;
-    margin: 0 -10px;
-    padding: 0 10px;
+
+  .carousel-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 100%;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  padding: 0 10px;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.buttonLeft,
+.buttonRight {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
 
 
 
-
-  }
 
   .item {
     background-color: rgba(255, 255, 255, 0.80); 
@@ -78,6 +111,7 @@ export const Container = styled.div`
     font-weight: bold;
     background-color: #000000;
   }
+
 
     .bar{
       position: absolute;
