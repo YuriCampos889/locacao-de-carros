@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import ('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
 
 export const HeaderContainer = styled.div`
     position: fixed;
@@ -16,7 +18,7 @@ export const HeaderContainer = styled.div`
     z-index: 1000;
 
     > img:first-of-type {
-        height: 105px;
+        height: 90px;
         width: auto;
         object-fit: contain;
         margin-top: 0;
@@ -31,8 +33,9 @@ export const HeaderContainer = styled.div`
         align-items: center;
         gap: 0.5rem;
         padding: 0.5rem;
-        font-size: 1rem;
+        font-size: 0.6rem;
         white-space: nowrap;
+        font-family: Arial, Helvetica, sans-serif;
         
         &:hover {
             background: transparent;
