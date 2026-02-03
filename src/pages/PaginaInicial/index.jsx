@@ -47,7 +47,7 @@ export default function PaginaInicial() {
           {cars.map((car) => (
             <div key={car.id} className="item">
               <div className="CarImage">
-                <img src={Car1} alt="carro" />
+                <img src={car.image} alt="carro" />
               </div>
               <div className="info">
                 <span className="carModel">{car.model}</span>
@@ -61,7 +61,7 @@ export default function PaginaInicial() {
           <img src={ChevronRight} alt="Próximo" />
         </button>
       </div>
-      <div className="bar">OIII</div>
+      <div className="bar">isso é apenas um easter egg, mas ja que voce encontrou, espero que tenha um bom dia</div>
     </Container>
   );
 }

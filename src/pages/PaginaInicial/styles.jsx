@@ -21,7 +21,6 @@ export const Container = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    height: 58.8%;
     z-index: -1;
     overflow: hidden;
 
@@ -41,6 +40,8 @@ export const Container = styled.div`
   max-width: 100%;
   margin: 1rem 0;
   position: relative;
+  margin-top: 3rem;   /* sobe 3rem; aumente/diminua conforme quiser */
+
 }
 
 .carousel {
@@ -52,6 +53,7 @@ export const Container = styled.div`
   margin: 0;
   padding: 0 10px;
   scrollbar-width: none;
+  gap: 90px;
 }
 
 .carousel::-webkit-scrollbar {
@@ -66,7 +68,7 @@ export const Container = styled.div`
   padding: 0;
   border: none;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.6);
+  background: transparent;
   color: white;
   cursor: pointer;
   display: flex;
@@ -78,21 +80,40 @@ export const Container = styled.div`
 
 
 
-  .item {
+.item {
     background-color: rgba(255, 255, 255, 0.80); 
     margin: 10px;
-    padding: 10px;
-    width: 280px;
+    padding: 5px;
+    width: 240px;
+    height: 310px;
     border-radius: 16px;
     flex: none;
-    ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Corta o que sobrar da barra de preço */
   }
-  .CarImage{
+  .CarImage {
     width: 100%;
-    object-fit: cover;
+    height: 140px; /* Defina uma altura fixa que caiba no seu card de 340px */
+    object-fit: contain; /* 'contain' garante que o carro apareça inteiro sem cortes */
+    background-color: transparent; /* Opcional: caso a imagem tenha fundo transparente */
+    height: 160px;    /* Forçamos uma altura para a imagem */
+    object-fit: contain; /* Agora o contain tem uma área definida para trabalhar */
+    overflow: hidden;   /* Garante que nada saia da área */
+  }
+
+  .CarImage img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;     /* Mantém a proporção real */
+    height: auto;    /* Mantém a proporção real */
+    object-fit: contain; 
+    display: block;
+
   }
 
   .info {
+    flex: 1;
     height: 140px;
     display: flex;
     flex-direction: column;
@@ -117,10 +138,12 @@ export const Container = styled.div`
       position: absolute;
       display: block;
       width: 100%;
-      height: 80px;
+      height: 50px;
       left: 0;
       right: 0;
-      background: rgba(0,0,0,0.70);
+      background: black;
+      color: black;
+      margin-top: 3px;
 }
 
 

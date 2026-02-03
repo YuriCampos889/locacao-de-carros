@@ -1,5 +1,5 @@
 import { HeaderContainer, HeaderDiv } from './styles';
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo2.png";
 import helpIcon from "../../assets/Help circle.png";
 import WhatsappIcon from "../../assets/image 4.png";
 import Language from "../../assets/Globe.png"

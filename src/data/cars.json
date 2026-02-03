@@ -1,6 +1,6 @@
 [
-    { "id": 1, "model": "Honda Civic", "price": 180, "image": "/cars/honda-civic.png" },
-    { "id": 2, "model": "Toyota Corolla", "price": 170, "image": "/cars/toyota-corolla.png" },
+    { "id": 1, "model": "Honda Civic", "price": 180, "image": "https://i.ibb.co/5gy2Z0HL/model-middle-webp-comprar-crystal-black-pearl-acd0c2c6a3-png.png" },
+    { "id": 2, "model": "Toyota Corolla", "price": 170, "image": "https://i.ibb.co/YTwvtsG8/preto-eclipse.png" },
     { "id": 3, "model": "Chevrolet Onix", "price": 120, "image": "/cars/chevrolet-onix.png" },
     { "id": 4, "model": "Hyundai HB20", "price": 130, "image": "/cars/hyundai-hb20.png" },
     { "id": 5, "model": "Volkswagen Golf", "price": 200, "image": "/cars/volkswagen-golf.png" },

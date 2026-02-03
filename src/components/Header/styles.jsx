@@ -5,18 +5,18 @@ export const HeaderContainer = styled.div`
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.75); 
+    background-color: black; 
     color: #fff;
     padding: 0.5rem 1rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-    max-height: 65px;
+    max-height: 40px;
     z-index: 1000;
 
     > img:first-of-type {
-        height: 135px;
+        height: 105px;
         width: auto;
         object-fit: contain;
         margin-top: 0;
