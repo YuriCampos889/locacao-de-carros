@@ -1,18 +1,18 @@
 [
-    { "id": 1, "model": "Honda Civic", "price": 180, "image": "https://i.ibb.co/5gy2Z0HL/model-middle-webp-comprar-crystal-black-pearl-acd0c2c6a3-png.png" },
-    { "id": 2, "model": "Toyota Corolla", "price": 170, "image": "https://i.ibb.co/YTwvtsG8/preto-eclipse.png" },
-    { "id": 3, "model": "Chevrolet Onix", "price": 120, "image": "/cars/chevrolet-onix.png" },
-    { "id": 4, "model": "Hyundai HB20", "price": 130, "image": "/cars/hyundai-hb20.png" },
-    { "id": 5, "model": "Volkswagen Golf", "price": 200, "image": "/cars/volkswagen-golf.png" },
-    { "id": 6, "model": "Jeep Compass", "price": 280, "image": "/cars/jeep-compass.png" },
-    { "id": 7, "model": "Fiat Argo", "price": 110, "image": "/cars/fiat-argo.png" },
-    { "id": 8, "model": "Nissan Kicks", "price": 210, "image": "/cars/nissan-kicks.png" },
-    { "id": 9, "model": "Ford Ka", "price": 100, "image": "/cars/ford-ka.png" },
-    { "id": 10, "model": "Renault Duster", "price": 230, "image": "/cars/renault-duster.png" },
-    { "id": 11, "model": "BMW X1", "price": 350, "image": "/cars/bmw-x1.png" },
-    { "id": 12, "model": "Audi A3", "price": 320, "image": "/cars/audi-a3.png" },
-    { "id": 13, "model": "Mercedes-Benz A200", "price": 380, "image": "/cars/mercedes-a200.png" },
-    { "id": 14, "model": "Peugeot 208", "price": 140, "image": "/cars/peugeot-208.png" },
-    { "id": 15, "model": "Toyota Hilux", "price": 420, "image": "/cars/toyota-hilux.png" }
+    { "id": 1, "model": "FIAT MOBI", "price": 180, "image": "https://i.ibb.co/bRHJb9Fz/image.png"},
+    { "id": 2, "model": "CHEVROLET ONIX", "price": 170, "image": "https://i.ibb.co/zhxZrwbP/image.png" },
+    { "id": 3, "model": "TOYOTA SIENNA (MINIVAN)", "price": 120, "image": "https://i.ibb.co/N66pfCqm/image.png" },
+    { "id": 4, "model": "JEEP RENEGADE T-CROSS", "price": 130, "image": "https://i.ibb.co/6cSNNvfN/image.png" },
+    { "id": 5, "model": "HONDA CIVIC", "price": 200, "image": "https://i.ibb.co/ywF1LPW/image.png" },
+    { "id": 6, "model": "Jeep Compass", "price": 280, "image": "https://i.ibb.co/5gy2Z0HL/model-middle-webp-comprar-crystal-black-pearl-acd0c2c6a3-png.png" },
+    { "id": 7, "model": "FIAT ARGO", "price": 110, "image": "https://i.ibb.co/Qv9bhdgL/image.png" },
+    { "id": 8, "model": "Nissan Kicks", "price": 210, "image": "https://i.ibb.co/7xqKCtL7/image.png" },
+    { "id": 9, "model": "Ford Ka", "price": 100, "image": "https://i.ibb.co/BKLqSkPM/image.png" },
+    { "id": 10, "model": "Renault Duster", "price": 230, "image": "https://i.ibb.co/QjzpXFJz/image.png" },
+    { "id": 11, "model": "SUZUKI JIMMY", "price": 350, "image": "https://i.ibb.co/5xrQ9tHS/image.png" },
+    { "id": 12, "model": "FIAT CRONOS", "price": 320, "image": "https://i.ibb.co/ynHSD9q3/image.png" },
+    { "id": 13, "model": "CITROEN C4", "price": 380, "image": "https://i.ibb.co/qL5jt8ry/image.png" },
+    { "id": 14, "model": "volkswagen virtus", "price": 140, "image": "https://i.ibb.co/fYsbDdBT/image.png" },
+    { "id": 15, "model": "HONDA WRV", "price": 420, "image": "https://i.ibb.co/DfktLPfZ/image.png" }
   ]
   

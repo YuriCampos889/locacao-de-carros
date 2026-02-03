@@ -38,10 +38,12 @@ export default function PaginaInicial() {
       <div className="background">
       <img src={Background} alt="" />
       </div>
+      ´<div>Aluguéis de carro na sua cidade a partir de  </div>
       <div className="carousel-wrapper">
         <button onClick={handleLeftClick} className="buttonLeft" type="button">
           <img src={ChevronLeft} alt="Anterior" />
         </button>
+
 
         <div className="carousel" ref={carousel}>
           {cars.map((car) => (
@@ -61,7 +63,7 @@ export default function PaginaInicial() {
           <img src={ChevronRight} alt="Próximo" />
         </button>
       </div>
-      <div className="bar">isso é apenas um easter egg, mas ja que voce encontrou, espero que tenha um bom dia</div>
+      <div className="bar">isso é apenas um easter egg, mas ja que voce encontrou, espero que tenha um bom dia :D </div>
     </Container>
   );
 }
