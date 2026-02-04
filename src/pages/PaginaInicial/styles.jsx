@@ -82,6 +82,27 @@ export const Container = styled.div`
     flex-direction: column;
   }
 
+  .like-btn {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    outline: none;
+    width: 230px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+
+
+  }
+  .like-btn img {
+  /* Controle o tamanho do coração aqui */
+  width: 15px;  /* Ajuste esse valor conforme quiser (ex: 18px, 15px...) */
+  height: auto;
+  transition: transform 0.2s; /* Efeito suave ao clicar */
+}
+
   .CarImage {
     width: 100%;
     height: 160px;
@@ -106,6 +127,13 @@ export const Container = styled.div`
 
   .carModel {
     text-align: left;
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: bolder;
+  }
+
+  .usersNumber {
+    font-size: large;
     color: #000;
   }
 
