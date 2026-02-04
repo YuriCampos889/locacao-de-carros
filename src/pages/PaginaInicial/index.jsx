@@ -70,7 +70,11 @@ export default function PaginaInicial() {
                 <span className="carModel">{car.model} ou similar</span>
                 <span className="usersNumber"><img src={Users} alt="" />{car.users}</span>
                 <span className='carBagage'><img src={Bagage} alt="" />{car.bagage}</span>
-                <span className="price">{car.price}</span>
+
+                <div className='bidPrice'>
+                <span className="price">R${car.price}/dia</span>
+                <button className='bidButton'>Ver Oferta</button>
+                </div>
               </div>
             </div>
           ))}
@@ -81,6 +85,7 @@ export default function PaginaInicial() {
         </button>
       </div>
       <div className="bar">isso é apenas um easter egg, mas ja que voce encontrou, espero que tenha um bom dia :D </div>
-    </Container>
+      <div>OIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+          </Container>
   );
 }

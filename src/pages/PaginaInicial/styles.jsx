@@ -76,7 +76,7 @@ export const Container = styled.div`
     padding: 8px;
     width: 240px;
     height: 310px;
-    border-radius: 16px;
+    border-radius: 9px;
     flex: none;
     display: flex;
     flex-direction: column;
@@ -136,15 +136,30 @@ export const Container = styled.div`
     font-size: large;
     color: #000;
   }
+  .bidPrice {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
 
+  }
   .price {
     margin-top: 10px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    background-color: #000;
-    color: #fff;
+    background-color: none;
+    color: #000000;
     padding: 6px;
     border-radius: 8px;
+  }
+  .bidButton {
+    border-radius: 100px;
+    width: 80px;
+    height: 40px;
+    font-size: 0.6rem;
+    outline: none;
+    justify-content: flex-end;
+    cursor: pointer;
   }
 
   .bar {
