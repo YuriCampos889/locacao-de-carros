@@ -68,6 +68,10 @@ export default function PaginaInicial() {
               </div>
               <div className="info">
                 <span className="carModel">{car.model} ou similar</span>
+                <span className='quilometragem'>{car.km}</span>
+                <span className='pickupdate'>{car.pickupdate}</span>
+                <span className='dropdate'>{car.dropoffdate}</span>
+
                 <span className="usersNumber"><img src={Users} alt="" />{car.users}</span>
                 <span className='carBagage'><img src={Bagage} alt="" />{car.bagage}</span>
 

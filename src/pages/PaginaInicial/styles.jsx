@@ -75,7 +75,7 @@ export const Container = styled.div`
     background-color: rgba(255, 255, 255, 0.8);
     padding: 8px;
     width: 240px;
-    height: 310px;
+    height: 290px;
     border-radius: 9px;
     flex: none;
     display: flex;
@@ -97,10 +97,9 @@ export const Container = styled.div`
 
   }
   .like-btn img {
-  /* Controle o tamanho do coração aqui */
-  width: 15px;  /* Ajuste esse valor conforme quiser (ex: 18px, 15px...) */
+  width: 15px;
   height: auto;
-  transition: transform 0.2s; /* Efeito suave ao clicar */
+  transition: transform 0.2s;
 }
 
   .CarImage {
@@ -123,6 +122,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
   }
 
   .carModel {
@@ -131,11 +131,48 @@ export const Container = styled.div`
     font-size: 0.7rem;
     font-weight: bolder;
   }
+  .quilometragem {
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .pickupdate {
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .dropdate{
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
 
   .usersNumber {
-    font-size: large;
+    font-size: medium;
+    font-weight: bold;
     color: #000;
   }
+
+  .carBagage {
+    font-size: medium;
+    font-weight: bold;
+    color: #000;
+   img {
+    width: 23px;
+    color: #000;
+  }
+}  .quilometragem, .pickupdate, .dropdate {
+  display: inline-block; /* Garante que respeitem margens */
+  margin-right: 10px;
+}
+.usersNumber, .carBagage {
+  display: flex;
+  align-items: center;
+  gap: 4px; /* Espaço entre o ícone e o número */
+}
   .bidPrice {
     display: flex;
     align-items: center;
@@ -165,7 +202,7 @@ export const Container = styled.div`
   .bar {
   position: fixed;
   left: 0;
-  width: 100vw;       /* largura total da tela */
+  width: 100vw;
   height: 60px;
   background: black;
   z-index: 5;
