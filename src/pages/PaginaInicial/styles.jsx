@@ -74,7 +74,7 @@ export const Container = styled.div`
   .item {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 8px;
-    width: 240px;
+    width: 250px;
     height: 290px;
     border-radius: 9px;
     flex: none;
@@ -132,7 +132,7 @@ export const Container = styled.div`
     font-weight: bolder;
   }
   .quilometragem {
-    color: #000;
+    color: #646464;
     font-size: 11px;
     font-weight: bold;
   }
@@ -154,6 +154,10 @@ export const Container = styled.div`
     font-size: medium;
     font-weight: bold;
     color: #000;
+    
+    img {
+      width: 29px;
+    }
   }
 
   .carBagage {
@@ -161,7 +165,7 @@ export const Container = styled.div`
     font-weight: bold;
     color: #000;
    img {
-    width: 23px;
+    width: 28px;
     color: #000;
   }
 }  .quilometragem, .pickupdate, .dropdate {
