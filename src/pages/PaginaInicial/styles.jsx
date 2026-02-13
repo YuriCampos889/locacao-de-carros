@@ -156,7 +156,7 @@ export const Container = styled.div`
     color: #000;
     
     img {
-      width: 29px;
+      width: 28px;
     }
   }
 
