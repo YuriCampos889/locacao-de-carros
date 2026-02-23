@@ -67,19 +67,30 @@ export default function PaginaInicial() {
                 <img src={car.image} alt="carro" />
               </div>
               <div className="info">
-                <span className="carModel">{car.model} ou similar</span>
-                <span className='quilometragem'>{car.km}</span>
-                <span className='pickupdate'>{car.pickupdate}</span>
-                <span className='dropdate'>{car.dropoffdate}</span>
+  <span className="carModel">{car.model} ou similar</span>
 
-                <span className="usersNumber"><img src={Users} alt="" />{car.users}</span>
-                <span className='carBagage'><img src={Bagage} alt="" />{car.bagage}</span>
+  <div className="infoRow">
+    <div className="iconsColumn">
+      <span className="usersNumber">
+        <img src={Users} alt="" />{car.users}
+      </span>
+      <span className='carBagage'>
+        <img src={Bagage} alt="" />{car.bagage}
+      </span>
+    </div>
 
-                <div className='bidPrice'>
-                <span className="price">R${car.price}/dia</span>
-                <button className='bidButton'>Ver Oferta</button>
-                </div>
-              </div>
+    <div className="tripColumn">
+      <span className='quilometragem'>{car.km}</span>
+      <span className='pickupdate'>{car.pickupdate}</span>
+      <span className='dropdate'>{car.dropoffdate}</span>
+    </div>
+  </div>
+
+  <div className='bidPrice'>
+    <span className="price">R${car.price}/dia</span>
+    <button className='bidButton'>Ver Oferta</button>
+  </div>
+</div>
             </div>
           ))}
         </div>
@@ -89,7 +100,7 @@ export default function PaginaInicial() {
         </button>
       </div>
       <div className="bar">isso é apenas um easter egg, mas ja que voce encontrou, espero que tenha um bom dia :D </div>
-      <div>OIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+      <div><input type="text" /></div>
           </Container>
   );
 }

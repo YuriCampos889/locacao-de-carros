@@ -89,8 +89,7 @@ export const Container = styled.div`
     justify-content: flex-end;
     cursor: pointer;
     outline: none;
-    width: 230px;
-    height: 15px;
+    width: 245px;
     padding: 0;
     margin: 0;
 
@@ -122,7 +121,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+    flex-wrap: wrap;
   }
 
   .carModel {
@@ -168,16 +167,45 @@ export const Container = styled.div`
     width: 28px;
     color: #000;
   }
-}  .quilometragem, .pickupdate, .dropdate {
-  display: inline-block; /* Garante que respeitem margens */
-  margin-right: 10px;
 }
-.usersNumber, .carBagage {
+
+.infoRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.iconsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 10px;
+}
+
+.tripColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.quilometragem,
+.pickupdate,
+.dropdate {
+  margin: 0;
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 45px;
+  justify-content: end;
+  display: flex;
+}
+
+.usersNumber,
+.carBagage {
   display: flex;
   align-items: center;
-  gap: 4px; /* Espaço entre o ícone e o número */
+  gap: 5px;
 }
-  .bidPrice {
+.bidPrice {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -238,20 +266,43 @@ export const Container = styled.div`
     }
 
     .carousel {
-      gap: 24px;
-      padding: 0 5px;
-    }
+    gap: 12px;          /* gap menor entre cards */
+    padding: 0;         /* tira padding lateral extra */
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;  /* opcional, pra “travar” em cada card */
+  }
 
     .buttonLeft,
     .buttonRight {
-      width: 36px;
-      height: 36px;
+      width: 20px;
+      height: 20px;
     }
 
     .item {
-      width: 200px;
-      height: 280px;
-    }
+    flex: 0 0 90%;     /* ocupa toda a largura disponível */
+    max-width: 320px;   /* ou algo como 90vw */
+    margin: 0 auto;     /* centraliza o card */
+    height: auto;       /* deixa a altura crescer com o conteúdo */
+    scroll-snap-align: center; /* com scroll-snap, centraliza o card */
+  }
+
+  .like-btn {
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 4px;
+}
+
+.quilometragem,
+.pickupdate,
+.dropdate {
+  margin-left: 25px;
+  font-size: 11px;
+  font-weight: bold;
+  display: flex;
+  text-align: right;        /* quando o texto quebra, continua alinhado à direita */
+
+}
+
 
     .CarImage {
       height: 140px;
@@ -269,8 +320,11 @@ export const Container = styled.div`
     }
 
     .item {
-      width: 180px;
+      flex: 0 0 90%;
+      max-width: 250px;   /* um pouco menor que no tablet/mobile */
       height: 260px;
+      margin-top: 15px;
+      margin-left: 5px;
     }
 
     .CarImage {

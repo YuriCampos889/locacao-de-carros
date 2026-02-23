@@ -1,5 +1,5 @@
 [
-    { "id": 1, "model": "FIAT MOBIiiiiiii", "price": 180, "image": "https://i.ibb.co/bRHJb9Fz/image.png", "users": 5, "bagage": 5, "km":"Quilometragem Ilimitada", "pickupdate": "ter., 15/0X", "dropoffdate": "sex., 18/0X "},
+    { "id": 1, "model": "FIAT MOBI", "price": 180, "image": "https://i.ibb.co/bRHJb9Fz/image.png", "users": 5, "bagage": 5, "km":"Quilometragem Ilimitada", "pickupdate": "ter., 15/0X", "dropoffdate": "sex., 18/0X "},
     { "id": 2, "model": "CHEVROLET ONIX", "price": 170, "image": "https://i.ibb.co/zhxZrwbP/image.png", "users": 5, "bagage": 5, "km":"Quilometragem Ilimitada", "pickupdate": "ter., 15/0X", "dropoffdate": "sex., 18/0X " },
     { "id": 3, "model": "TOYOTA SIENNA (MINIVAN)", "price": 120, "image": "https://i.ibb.co/N66pfCqm/image.png", "users": 5, "bagage": 5, "km":"Quilometragem Ilimitada", "pickupdate": "ter., 15/0X", "dropoffdate": "sex., 18/0X " },
     { "id": 4, "model": "JEEP RENEGADE T-CROSS", "price": 130, "image": "https://i.ibb.co/6cSNNvfN/image.png", "users": 5, "bagage": 5, "km":"Quilometragem Ilimitada", "pickupdate": "ter., 15/0X", "dropoffdate": "sex., 18/0X " },
