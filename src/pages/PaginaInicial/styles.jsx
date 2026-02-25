@@ -242,6 +242,90 @@ export const Container = styled.div`
   font-size: smaller;
 }
 
+.booking-section {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #000;
+}
+
+.booking-section h2 {
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.booking-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  border: 1px solid #dcdcdc;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.booking-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.booking-row-top .field.large {
+  flex: 1 1 0;
+}
+
+.booking-row-middle .field {
+  flex: 1 1 0;
+  min-width: 150px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.field label {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.field input {
+  border-radius: 10px;
+  border: 1px solid #c8c8c8;
+  padding: 8px 10px;
+  font-size: 0.8rem;
+  outline: none;
+}
+
+.continue-button {
+  margin-left: auto;
+  border-radius: 999px;
+  padding: 10px 24px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.checkbox-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.7rem;
+  text-align: left;
+}
+
+.checkbox-line input {
+  margin-top: 3px;
+}
+
 
   /* ===== TABLET ===== */
   @media (max-width: 1024px) {
@@ -312,6 +396,8 @@ export const Container = styled.div`
       font-size: 1rem;
     }
   }
+
+  
 
   /* ===== MOBILE PEQUENO ===== */
   @media (max-width: 480px) {
