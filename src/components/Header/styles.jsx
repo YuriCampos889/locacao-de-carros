@@ -3,7 +3,7 @@ import ('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pop
 
 
 export const HeaderContainer = styled.div`
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;

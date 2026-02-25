@@ -18,7 +18,10 @@ export const Container = styled.div`
 
   .background {
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 420px;
     z-index: -1;
     overflow: hidden;
 
@@ -232,9 +235,8 @@ export const Container = styled.div`
   }
 
   .bar {
-  position: fixed;
-  left: 0;
   width: 100vw;
+  margin-left: calc(50% - 50vw);
   height: 60px;
   background: black;
   z-index: 5;
@@ -243,7 +245,7 @@ export const Container = styled.div`
 }
 
 .booking-section {
-  margin-top: 3rem;
+  margin-top: 0rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -264,6 +266,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-top: -1.5rem;
 }
 
 .booking-row {

@@ -100,7 +100,6 @@ export default function PaginaInicial() {
         </button>
       </div>
       <div className="bar">isso é apenas um easter egg, mas ja que voce encontrou, espero que tenha um bom dia :D </div>
-      <div><input type="text" /></div>
       <div className="booking-section">
   <h2>Onde deseja retirar o veículo?</h2>
 
@@ -153,9 +152,7 @@ export default function PaginaInicial() {
   </div>
 </div>
 
-<div className="bar">
-  isso é apenas um easter egg, mas ja que voce encontrou, espero que tenha um bom dia :D
-</div>
+
           </Container>
   );
 }
