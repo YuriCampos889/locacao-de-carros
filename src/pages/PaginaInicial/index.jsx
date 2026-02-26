@@ -4,12 +4,14 @@ import Header from '../../components/Header';
 import Background from '../../assets/Background.png'
 import Car1 from '../../assets/car1.png'
 import carsData from '../../data/cars.json'
+import faqItems from '../../data/faq.json';
 import ChevronLeft from '../../assets/Chevron left.png'
 import ChevronRight from '../../assets/Chevron right.png'
 import Users from '../../assets/Users.png'
 import Bagage from '../../assets/Briefcase.png'
 import Heart1 from '../../assets/Heart.png'
 import Heart2 from '../../assets/Heart2.png'
+
 
 const LikeButton = () => {
   const [liked, setLiked] = useState(false);
@@ -22,6 +24,12 @@ const LikeButton = () => {
 };
 
 export default function PaginaInicial() {
+
+  const [openFaqId, setOpenFaqId] = useState(null);   // <-- AQUI AGORA
+  const mid = Math.ceil(faqItems.length / 2);
+const leftFaq = faqItems.slice(0, mid);
+const rightFaq = faqItems.slice(mid);
+
 
   const [cars, setCars] = useState ([])
 
@@ -99,7 +107,6 @@ export default function PaginaInicial() {
           <img src={ChevronRight} alt="Próximo" />
         </button>
       </div>
-      <div className="bar">isso é apenas um easter egg, mas ja que voce encontrou, espero que tenha um bom dia :D </div>
       <div className="booking-section">
   <h2>Onde deseja retirar o veículo?</h2>
 
@@ -150,6 +157,37 @@ export default function PaginaInicial() {
       </label>
     </div>
   </div>
+  <div className="faq-section">
+  <h2>Perguntas frequentes</h2>
+
+  <div className="faq-grid">
+    {faqItems.map((item) => (
+      <div
+        key={item.id}
+        className={`faq-item ${openFaqId === item.id ? 'open' : ''}`}
+      >
+        <button
+          type="button"
+          className="faq-question"
+          onClick={() =>
+            setOpenFaqId(openFaqId === item.id ? null : item.id)
+          }
+        >
+          <span>{item.question}</span>
+          <span className="faq-icon">
+            {openFaqId === item.id ? '-' : '+'}
+          </span>
+        </button>
+
+        {openFaqId === item.id && (
+          <div className="faq-answer">
+            <p>{item.answer}</p>
+          </div>
+        )}
+      </div>
+    ))}
+  </div>
+</div>
 </div>
 
 

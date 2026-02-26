@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "question": "Quais documentos preciso para alugar um carro?",
+      "answer": "Você precisa de CNH válida, documento de identificação com foto e cartão de crédito em nome do condutor principal."
+    },
+    {
+      "id": 2,
+      "question": "Existe limite de quilometragem?",
+      "answer": "Depende do plano escolhido. Alguns planos oferecem quilometragem ilimitada e outros possuem limite diário com cobrança adicional por km excedente."
+    },
+    {
+      "id": 3,
+      "question": "Qual é a idade mínima para alugar um carro?",
+      "answer": "Em geral, a idade mínima é 21 anos, com pelo menos 2 anos de habilitação. Condutores mais jovens podem estar sujeitos a taxa adicional."
+    },
+    {
+      "id": 4,
+      "question": "Posso incluir um motorista adicional?",
+      "answer": "Sim. O motorista adicional deve apresentar CNH válida e pode haver cobrança de taxa extra por condutor adicional."
+    },
+    {
+      "id": 5,
+      "question": "O que está incluído no valor da diária?",
+      "answer": "Normalmente inclui o aluguel do veículo, quilometragem conforme o plano, impostos básicos e seguros selecionados. Serviços extras são cobrados à parte."
+    },
+    {
+      "id": 6,
+      "question": "Quais formas de pagamento são aceitas?",
+      "answer": "Aceitamos cartões de crédito das principais bandeiras. Algumas locadoras também aceitam débito ou Pix para pagamento de taxas e adicionais."
+    },
+    {
+      "id": 7,
+      "question": "Posso devolver o carro em outra cidade?",
+      "answer": "Sim, é possível devolver em outra agência, de acordo com a disponibilidade. Pode haver cobrança de taxa de devolução em local diferente."
+    },
+    {
+      "id": 8,
+      "question": "Como funciona o seguro do carro alugado?",
+      "answer": "O seguro reduz a responsabilidade do condutor em caso de danos ou roubo, mediante franquia. Os tipos de cobertura e valores variam conforme o plano escolhido."
+    },
+    {
+      "id": 9,
+      "question": "O que acontece se eu devolver o carro atrasado?",
+      "answer": "Atrasos podem gerar cobrança de horas extras ou até uma diária adicional, dependendo do tempo de atraso e das regras da locadora."
+    },
+    {
+      "id": 10,
+      "question": "Posso cancelar ou alterar minha reserva?",
+      "answer": "Sim, mas as condições de cancelamento e remarcação variam conforme a tarifa. Algumas permitem cancelamento gratuito até um prazo limite, outras cobram multa."
+    },
+    {
+      "id": 11,
+      "question": "É permitido sair do país com o carro alugado?",
+      "answer": "Na maioria dos casos, não é permitido atravessar fronteiras sem autorização prévia. Verifique sempre as regras específicas antes da viagem."
+    },
+    {
+      "id": 12,
+      "question": "O combustível está incluso na diária?",
+      "answer": "Não. O veículo é retirado com determinado nível de combustível e deve ser devolvido no mesmo nível. Diferenças podem ser cobradas pela locadora."
+    },
+    {
+      "id": 13,
+      "question": "Posso usar minha própria cadeirinha ou bebê-conforto?",
+      "answer": "Sim, você pode usar seu próprio equipamento de retenção infantil. Também é possível alugá-los como extras no momento da reserva."
+    },
+    {
+      "id": 14,
+      "question": "O que devo fazer em caso de acidente ou pane?",
+      "answer": "Entre em contato imediatamente com a central de atendimento da locadora e, se necessário, com a seguradora. As instruções estão no contrato e no cartão do veículo."
+    },
+    {
+      "id": 15,
+      "question": "Há taxa para devolver o carro sujo?",
+      "answer": "Em casos de sujeira excessiva, pode ser cobrada uma taxa de limpeza. Sujeira leve do uso normal geralmente não gera custo adicional."
+    },
+    {
+      "id": 16,
+      "question": "Posso escolher o modelo exato do veículo?",
+      "answer": "A reserva é garantida por categoria (grupo de veículos com características similares). O modelo específico depende da disponibilidade na retirada."
+    },
+    {
+      "id": 17,
+      "question": "Animais de estimação são permitidos no veículo?",
+      "answer": "Algumas locadoras permitem pets, desde que o veículo seja devolvido em boas condições de limpeza. Consulte as regras e possíveis taxas extras."
+    },
+    {
+      "id": 18,
+      "question": "Como funciona a caução no cartão de crédito?",
+      "answer": "No momento da retirada é feito um bloqueio temporário no cartão, que funciona como garantia. O valor é desbloqueado após a devolução, descontando eventuais custos."
+    },
+    {
+      "id": 19,
+      "question": "É possível estender o período de locação depois de já estar com o carro?",
+      "answer": "Sim, desde que haja disponibilidade. Entre em contato com a locadora antes do término do contrato para ajustar datas e valores."
+    },
+    {
+      "id": 20,
+      "question": "Preciso entregar o carro lavado?",
+      "answer": "Não é obrigatório lavar o veículo, mas ele deve ser devolvido em condições normais de uso. Limpezas especiais podem gerar cobrança adicional."
+    }
+  ]

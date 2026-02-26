@@ -21,7 +21,7 @@ export const Container = styled.div`
     top: 0;
     left: 0;
     right: 0;
-    height: 420px;
+    height: 435px;
     z-index: -1;
     overflow: hidden;
 
@@ -61,7 +61,7 @@ export const Container = styled.div`
   .buttonRight {
     flex-shrink: 0;
     width: 48px;
-    height: 48px;
+    height: 28px;
     border: none;
     border-radius: 50%;
     background: transparent;
@@ -75,14 +75,15 @@ export const Container = styled.div`
   /* ===== CARD ===== */
 
   .item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: white;
     padding: 8px;
     width: 250px;
     height: 290px;
-    border-radius: 9px;
+    border-radius: 5px;
     flex: none;
     display: flex;
     flex-direction: column;
+    margin-top: 12px
   }
 
   .like-btn {
@@ -242,20 +243,26 @@ export const Container = styled.div`
   z-index: 5;
   color: #000;
   font-size: smaller;
+  
 }
 
 .booking-section {
-  margin-top: 0rem;
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  color: #000;
+  color: #000000;
+  font-weight: bold;
+  background-color: #f5f5f7;
+
 }
 
 .booking-section h2 {
   text-align: left;
   font-size: 1.1rem;
   font-weight: 700;
+  
+
 }
 
 .booking-card {
@@ -267,6 +274,7 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 12px;
   margin-top: -1.5rem;
+  box-shadow: 0 4px 12px rgba(65, 65, 65, 0.2);
 }
 
 .booking-row {
@@ -274,15 +282,22 @@ export const Container = styled.div`
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
+  background-color: white;
+
+
 }
 
 .booking-row-top .field.large {
   flex: 1 1 0;
+  background-color: white;
+
 }
 
 .booking-row-middle .field {
   flex: 1 1 0;
   min-width: 150px;
+  background-color: white;
+
 }
 
 .field {
@@ -290,11 +305,16 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 4px;
   text-align: left;
+    background-color: #ffffff;
+
 }
 
 .field label {
   font-size: 0.75rem;
   font-weight: 600;
+  color: #1a1a1a;
+  background-color: white;
+
 }
 
 .field input {
@@ -303,18 +323,23 @@ export const Container = styled.div`
   padding: 8px 10px;
   font-size: 0.8rem;
   outline: none;
+  background-color: white;
+
 }
 
 .continue-button {
   margin-left: auto;
-  border-radius: 999px;
-  padding: 10px 24px;
   background: #000;
-  color: #fff;
-  border: none;
-  font-size: 0.8rem;
-  font-weight: 600;
-  cursor: pointer;
+    color: white;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: 0.3s;
+    height: 40px;
+}
+
+.continue-button:hover {
+  background: #222;
+    transform: scale(1.05);
 }
 
 .checkbox-line {
@@ -323,11 +348,91 @@ export const Container = styled.div`
   gap: 8px;
   font-size: 0.7rem;
   text-align: left;
+  
 }
 
 .checkbox-line input {
   margin-top: 3px;
+  
 }
+
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 colunas iguais */
+  column-gap: 16px;
+  row-gap: 8px;
+  align-items: start;
+  color: #000
+  ;
+}
+.faq-section {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+  color: #000;
+}
+
+.faq-section h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.faq-columns {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.faq-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.faq-item {
+  width: 100%;              /* ocupa a largura inteira da coluna */
+}
+
+.faq-question {
+  width: 100%;              /* todas as “faixas” pretas com o mesmo tamanho */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 999px;
+  background: #f1efef;
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.faq-icon {
+  margin-left: 12px;
+}
+
+.faq-answer {
+  margin-top: 4px;
+  padding: 0 6px 6px;
+  font-size: 0.8rem;
+  color: #fc0000;   /* texto bem claro */
+}
+
+.faq-answer p {
+  color: #000000;   /* ou #ff0000, #c00, etc. */
+}
+
+
+
+
+
+
 
 
   /* ===== TABLET ===== */
@@ -399,6 +504,13 @@ export const Container = styled.div`
       font-size: 1rem;
     }
   }
+
+  /* mobile: 1 coluna só */
+@media (max-width: 768px) {
+  .faq-columns {
+    flex-direction: column;
+  }
+}
 
   
 
